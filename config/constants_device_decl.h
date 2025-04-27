@@ -1,0 +1,6 @@
+#ifndef CONSTANTS_DEVICE_DECL_H
+#define CONSTANTS_DEVICE_DECL_H
+
+extern __device__ const char* KERNEL_DATA_PATH;
+
+#endif // CONSTANTS_DEVICE_DECL_H
