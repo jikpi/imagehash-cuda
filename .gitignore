@@ -60,6 +60,7 @@ CMakeUserPresets.json
 
 ### Custom
 cmake-build-debug
+cmake-build-release
 common
 cuda-samples
 .idea

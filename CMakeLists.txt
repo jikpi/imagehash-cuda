@@ -97,12 +97,20 @@ set(COMMON_HEADERS
         config/constants_common_decl.h
         config/constants_host_decl.h
         config/constants_device_decl.h
+        src/phash/phash_kern.cuh
+        src/helpers/FreeImageBitmap.h
+        src/helpers/CudaCheck.cuh
+        src/phash/phash.cuh
+        src/lsh/lsh.cuh
 )
 
 # Define common sources
 set(COMMON_SOURCES
         config/constants_host_def.cpp
         config/constants_device_def.cu
+        src/phash/phash_kern.cu
+        src/phash/phash.cu
+        src/lsh/lsh.cu
 
 )
 
